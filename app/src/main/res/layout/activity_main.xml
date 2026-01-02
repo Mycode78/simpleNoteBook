@@ -1,0 +1,28 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/etNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="یادداشت خود را وارد کنید"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ذخیره"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/tvSavedNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="یادداشت ذخیره‌شده اینجا نمایش داده می‌شود"
+        android:layout_marginTop="24dp"
+        android:textSize="16sp"/>
+</LinearLayout>
